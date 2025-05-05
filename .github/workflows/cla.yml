@@ -1,0 +1,11 @@
+name: use cla workflow
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request:
+    types: [opened, closed, synchronize]
+
+jobs:
+  call-shared:
+    uses: luneutic/cla/.github/workflows/cla_reusable.yml@main
