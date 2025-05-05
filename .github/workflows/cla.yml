@@ -11,5 +11,6 @@ jobs:
     uses: luneutic/cla/.github/workflows/cla.yml@main
     permissions:
       actions: write
+      contents: read
       pull-requests: write
       statuses: write
