@@ -8,4 +8,4 @@ on:
 
 jobs:
   call-shared:
-    uses: luneutic/cla/.github/workflows/cla_reusable.yml@main
+    uses: luneutic/cla/.github/workflows/cla.yml@main
