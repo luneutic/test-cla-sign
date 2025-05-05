@@ -9,3 +9,7 @@ on:
 jobs:
   call-shared:
     uses: luneutic/cla/.github/workflows/cla.yml@main
+    permissions:
+      actions: write
+      pull-requests: write
+      statuses: write
